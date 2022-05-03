@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include naffhis01 *.css
+recursive-include naffhis01 *.csv
+recursive-include naffhis01 *.html
+recursive-include naffhis01 *.ico
+recursive-include naffhis01 *.js
+recursive-include naffhis01 *.json
+recursive-include naffhis01 *.md
+recursive-include naffhis01 *.png
+recursive-include naffhis01 *.py
+recursive-include naffhis01 *.svg
+recursive-include naffhis01 *.txt
+recursive-exclude naffhis01 *.pyc
