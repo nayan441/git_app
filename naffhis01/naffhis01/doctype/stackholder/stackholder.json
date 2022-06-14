@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:id_card_number",
+ "creation": "2022-05-03 15:19:58.069636",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_card_number",
+  "firstname",
+  "surname"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_card_number",
+   "fieldtype": "Data",
+   "label": "id",
+   "unique": 1
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "label": "Surname"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-05-03 15:20:35.002062",
+ "modified_by": "Administrator",
+ "module": "Naffhis01",
+ "name": "Stackholder",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
