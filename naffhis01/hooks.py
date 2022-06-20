@@ -108,14 +108,14 @@ app_license = "MIT"
 
 scheduler_events = {
 	"cron"  : {
-		"*****" : [
+		"* * * * *" : [
 			"naffhis01.tasks.cron"
 		]
-	}
+	},
 
-# 	"all": [
-# 		"naffhis01.tasks.all"
-# 	],
+	"all": [
+		"naffhis01.tasks.all"
+	],
 # 	"daily": [
 # 		"naffhis01.tasks.daily"
 # 	],

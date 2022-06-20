@@ -18,7 +18,7 @@ def cron():
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
-            "title" : "Hello world"
+            "title" : "Hello world Cron"
         }
     )
 
