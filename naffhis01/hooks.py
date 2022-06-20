@@ -106,7 +106,13 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
+	"cron"  : {
+		"*****" : [
+			"naffhis01.tasks.cron"
+		]
+	}
+
 # 	"all": [
 # 		"naffhis01.tasks.all"
 # 	],
@@ -122,7 +128,7 @@ app_license = "MIT"
 # 	"monthly": [
 # 		"naffhis01.tasks.monthly"
 # 	]
-# }
+}
 
 # Testing
 # -------
