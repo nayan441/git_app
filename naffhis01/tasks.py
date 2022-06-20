@@ -1,5 +1,7 @@
 import frappe
 def all():
+    print("\n\n")
+    print("=------------------all")
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
@@ -11,6 +13,8 @@ def all():
     frappe.db.commit()
 
 def cron():
+    print("\n\n")
+    print("=------------------Cron")
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
