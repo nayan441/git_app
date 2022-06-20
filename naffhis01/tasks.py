@@ -6,7 +6,7 @@ def all():
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
-            "title" : random.ramdint(0,999)
+            "title" : random.randint(0,999)
         }
     )
 
@@ -19,7 +19,7 @@ def cron():
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
-            "title" : random.ramdint(999,999999999)
+            "title" : random.randint(999,999999999)
         }
     )
 
