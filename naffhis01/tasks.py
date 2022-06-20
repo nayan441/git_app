@@ -1,11 +1,12 @@
 import frappe
+import random
 def all():
     print("\n\n")
     print("=------------------all")
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
-            "title" : "Hello world fro all"
+            "title" : random.ramdint(0,999)
         }
     )
 
@@ -18,7 +19,7 @@ def cron():
     new_doc = frappe.get_doc(
         {
             "doctype" : "Note",
-            "title" : "Hello world Cron"
+            "title" : random.ramdint(999,999999999)
         }
     )
 
